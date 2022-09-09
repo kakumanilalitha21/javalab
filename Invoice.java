@@ -1,33 +1,32 @@
 import java.util.Scanner;
 class Invoice
 {
-private String part_number;
-private String part_description;
+private String number;
+private String description;
 private int quantity;
-private double price_item;
-private double total=0;
+private double priceperitem;
 Invoice()
 {
-String part_number="";
-String part_description="";
+String number="";
+String description="";
 int quantity=0;
-double price_item=0.0;
+double priceperitem=0.0;
 }
-public String getPart_number() 
+public String getnumber() 
 {
-return part_number;
+return number;
 }
-public void setPart_number(String part_number) 
+public void setnumber(String number) 
 {
-this.part_number = part_number;
+this.number = number;
 }
-public String getPart_description() 
+public String getdescription() 
 {
-return part_description;
+return description;
 }
-public void setPart_description(String part_description) 
+public void setdescription(String description) 
 {
-this.part_description = part_description;
+this.description = description;
 }
 public int getQuantity() 
 {
@@ -42,26 +41,21 @@ quantity=0;
 else
 this.quantity = quantity;
 }
-public double getPrice_item()
+public double getPriceperitem()
 {
-return price_item;
+return priceperitem;
 }
-public void setPrice_item(double price_item) 
+public void setPriceperitem(double priceperitem) 
 {
-if(price_item<0)
+if(priceperitem<0)
 {
-price_item=0.0;
+priceperitem=0.0;
 }
-else
-this.price_item = price_item;
+else{
+this.priceperitem = priceperitem;
 }
 double getInvoiceAmount()
 {
-totalprice();
-return total;
-}
-void totalprice()
-{
-total=total+getQuantity()*getPrice_item();
+return getQuantity()*getPrice_item();
 }
 }
