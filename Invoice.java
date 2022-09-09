@@ -51,11 +51,11 @@ if(priceperitem<0)
 {
 priceperitem=0.0;
 }
-else{
+else
 this.priceperitem = priceperitem;
 }
 double getInvoiceAmount()
 {
-return getQuantity()*getPrice_item();
+return getQuantity()*getPriceperitem();
 }
 }
