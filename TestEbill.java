@@ -6,6 +6,6 @@ public class TestEbill
 		ElectricityBill eb=new ElectricityBill();
 		eb.getDetails();
 		eb.billamount();
-		eb.showBillamount();
+		eb.printBillamount();
 	}
 }
