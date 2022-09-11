@@ -34,7 +34,7 @@ class ElectricityBill
 	{
 		double units;
 		units=currentmonthreading-previousmonthreading;
-		if(typeofebc=="d")
+		if(typeofebc=="domestic")
 		{
 			if(units<=100)
 				amount=units*1;
