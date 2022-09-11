@@ -4,7 +4,7 @@ class TestSavingsaccount
 	{
 		SavingsAccount saver1=new SavingsAccount(2000);
 		SavingsAccount saver2=new SavingsAccount(3000);
-		ob1.modifyInterestrate(0.04);
+		saver1.modifyInterestrate(0.04);
 		saver1.MonthlyInterest();
 		saver2.modifyInterestrate(0.04);
 		saver2.calculateMonthlyInterest();
