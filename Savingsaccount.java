@@ -8,17 +8,17 @@ class SavingsAccount
 		sbal=0; 
 		annintrate=0;
 	}
-	public SavingsAccount(double balance) 
+	public SavingsAccount(double bal) 
 	{
-		sbal=balance;
+		sbal=bal;
 		annintrate=0;
 	}
-	public void calculateMonthlyInterest()
+	public void MonthlyInterest()
 	 {
 		System.out.println("current balance:"+sbal);
-		double mi;
+		double monint;
 		mi=(sbal*annintrate)/12;
-		sbal=sbal+mi;
+		sbal=sbal+monint;
 		System.out.println("new balance:"+sbal);
 	}
 	double getbalance() 
@@ -26,8 +26,8 @@ class SavingsAccount
 		return sbal;
 	}
 
-	static void modifyInterestrate(double newinterest) 
+	static void modifyInterestrate(double newint) 
 	{
-		annintrate=newinterest;
+		annintrate=newint;
 	}
 }
