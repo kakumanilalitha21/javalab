@@ -58,11 +58,11 @@ class ElectricityBill
 				amount=units*7;
 		}
 	 }
-	void showBillamount() 
+	void printBillamount() 
 	{
 		System.out.println("Consumer name:"+consumername);
 		System.out.println("consumer number:"+consumernumber);
-		if(typeofebc.equals("d"))
+		if(typeofebc.equals("domestic"))
 			System.out.println("typeofebc=domestic");
 		else
 			System.out.println("typeofebc=commercial");
