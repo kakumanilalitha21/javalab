@@ -10,8 +10,8 @@ class TestSavingsaccount
 		saver2.calculateMonthlyInterest();
 		System.out.println("after changing interest rate from 4% to 5%");
 		saver1.modifyInterestrate(0.05);
-		saver2.MonthlyInterest();
-		saver1.modifyInterestrate(0.05);
+		saver1.MonthlyInterest();
+		saver2.modifyInterestrate(0.05);
 		saver2.MonthlyInterest();
 	}
 }
