@@ -3,9 +3,9 @@ public class TestEbill
 {
 	public static void main(String[] args) 
 	{
-		ElectricityBill e=new ElectricityBill();
-		e.getDetails();
-		e.billamount();
-		e.showBillamount();
+		ElectricityBill eb=new ElectricityBill();
+		eb.getDetails();
+		eb.billamount();
+		eb.showBillamount();
 	}
 }
