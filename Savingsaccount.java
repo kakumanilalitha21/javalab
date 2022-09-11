@@ -17,7 +17,7 @@ class SavingsAccount
 	 {
 		System.out.println("current balance:"+sbal);
 		double monint;
-		mi=(sbal*annintrate)/12;
+		monint=(sbal*annintrate)/12;
 		sbal=sbal+monint;
 		System.out.println("new balance:"+sbal);
 	}
