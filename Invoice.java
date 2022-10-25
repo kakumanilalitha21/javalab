@@ -10,6 +10,7 @@ Invoice()
 String number="";
 String description="";
 int quantity=0;
+//quantity set to 0
 double priceperitem=0.0;
 }
 public String getnumber() 
