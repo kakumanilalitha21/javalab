@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//scanner class
 class ElectricityBill
 {
 	Scanner ob=new Scanner(System.in);
