@@ -1,5 +1,4 @@
 import java.util.Scanner;
-//scanner class is imported
 class SavingsAccount
 {
 	private static double annintrate;

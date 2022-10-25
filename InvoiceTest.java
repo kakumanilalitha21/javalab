@@ -1,5 +1,4 @@
 import java.util.Scanner;
-//importing scanner class
 class InvoiceTest
 {
 public static void main(String[] args) 
