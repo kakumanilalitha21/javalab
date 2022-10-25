@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class TestEbill
+//class test electricity bill
 {
 	public static void main(String[] args) 
 	{
