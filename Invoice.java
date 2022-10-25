@@ -1,5 +1,4 @@
 import java.util.Scanner;
-//scanner class
 class Invoice
 {
 private String number;

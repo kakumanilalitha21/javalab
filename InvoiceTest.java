@@ -1,6 +1,5 @@
 import java.util.Scanner;
 class InvoiceTest
-//invoice test class
 {
 public static void main(String[] args) 
 {

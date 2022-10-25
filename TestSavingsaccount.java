@@ -1,5 +1,4 @@
 class TestSavingsaccount
-//test savings account class
 {
 	public static void main(String args[]) 
 	{

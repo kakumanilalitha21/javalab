@@ -1,5 +1,4 @@
 public class Booktest {
-//class booktest
 public static void main(String[] args) {
 Book arr[]=new Book[30];
 arr[1]=new Book("Database system concepts",11260,"Abraham silbetschatz","Mc Graw hill");
